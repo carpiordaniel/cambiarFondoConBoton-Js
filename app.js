@@ -1,7 +1,7 @@
 boton.addEventListener('click', function(){
     let color = aleatorio()
-    console.log(body.style.backgroundColor  =  color);
-    console.log(b.style.color  =  color);
+    body.style.backgroundColor  =  color;
+    b.style.color  =  color;
     document.getElementById("b").innerHTML = color;
 })
 
