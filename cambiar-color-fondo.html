@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cambiar color fondo</title>
+</head>
+
+<style>
+    body{
+        background-color: red;
+    }
+    p{
+        color: #ffffff;
+        font-size: 50px;
+        margin: 0;
+    }
+    b{
+        color: rgb(0, 71, 251);
+        font-size: 50px;
+    }
+    button{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .texto{
+        display: flex;
+        background-color: #003439;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border: 2px solid #ffffff;
+    }
+    main{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body id="body" >
+        
+    <main>
+        <div class="texto">
+            <p>Background Color : </p> <b id="b">Red</b>    
+
+        </div>
+        
+        <button id="boton">Click me</button>
+    </main>
+
+
+</body>
+<script src="app.js"></script>
+</html>
